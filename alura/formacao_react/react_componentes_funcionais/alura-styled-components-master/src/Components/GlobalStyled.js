@@ -4,8 +4,8 @@ export const GlobalStyled = createGlobalStyle`
 * {
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 0px;
     text-decoration: none;
   }
 `

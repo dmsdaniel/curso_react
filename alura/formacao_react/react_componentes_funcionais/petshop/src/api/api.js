@@ -5,7 +5,12 @@ export const api = axios.create({
 })
 
 export const busca = async(url, setDado) => {
+    console.log(url)
     const resposta = await api.get(url)
     setDado(resposta.data)
+}
+
+export const salvar = async(url, dados) => {
+    const resposta = await api.post(url, dados)
 }
 

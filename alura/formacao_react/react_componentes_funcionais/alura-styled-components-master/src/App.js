@@ -7,6 +7,7 @@ import Container from "./Components/Container";
 import { GlobalStyled } from "./Components/GlobalStyled";
 import { BtnTema } from "./Components/UI";
 import SwitcherTema from "./Components/SwitcherTema";
+import Produto from "./Components/Produto";
 
 function App() {
   const [tema, setTema] = useState(true)

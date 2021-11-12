@@ -4,6 +4,7 @@ import styled from "styled-components";
 
 import Conta from "../Conta";
 import { Extrato } from "../Extrato";
+import Produto from "../Produto";
 const Container = styled.div`
   background-color: ${({theme}) => theme.body};
   min-height: 90vh;
@@ -27,6 +28,7 @@ export default () => {
       <Conteudo className="conteudo">
         <Conta />
         <Extrato/>
+        <Produto/>
       </Conteudo>
     </Container>
   );

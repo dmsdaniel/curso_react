@@ -9,7 +9,7 @@ export const Extrato = () => {
                 return (
                     <Items key={id} type={type} from={from} value={value} date={date} />
                 )
-            })};
+            })}
             <Button>Ver mais</Button>
         </Box>
     )
