@@ -7,17 +7,17 @@ import Pagina404 from './paginas/Pagina404'
 import Cabecalho from './components/Cabecalho'
 import Post from './paginas/Post'
 import Categoria from './paginas/Categoria'
-import FormCategorias from './paginas/Tabela'
 import Categorias from './paginas/Categorias'
-import 'tailwindcss/tailwind.css'
 import Tabela from './paginas/Tabela'
-import Table from './components/Table'
+import { GlobalStyled } from './UI/GlobalStyled'
+
 
 function App() {
   return (
-    <>
+    <div className="p-6 items-center justify-center">
 
-      <Router>
+      <Router> 
+        <GlobalStyled/>
         <Cabecalho />
         <Switch>
           <Route exact path='/'>
@@ -43,7 +43,7 @@ function App() {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   )
 }
 
